@@ -1,0 +1,381 @@
+*{
+	margin:0;
+	padding: 0;
+	text-decoration: none;
+	cursor: default;
+}
+
+ @font-face {
+    font-family: Pompadur; /* Имя шрифта */
+    src: url(fonts/ebrima.ttf); /* Путь к файлу со шрифтом */
+   }
+   
+a{
+    color:#000;
+    text-decoration: none;
+    font-family: ebrima;
+}
+
+h1{
+	font-family: ebrima;
+}
+h2{
+	font-family: ebrima;
+}
+
+h3{
+	font-family: ebrima;
+	font-size: 15px;
+	color:black;
+
+}
+
+body{
+	  min-width:500px;
+	  height: 800px;
+       background: url(images/background.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+} 
+
+.box{
+	position: absolute;
+	width: 500px;
+	border:0px solid red;
+	
+
+	   top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -250px;
+
+}
+
+.logo{
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 500px;
+	height:500px;
+	border: 0px solid #000;
+	
+		background: url(images/logoeb.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.social{
+	position: absolute;
+	top: 410px;
+	left: 2px;
+	width: 500px;
+	height:85px;
+	border: 0px solid #333;
+}
+
+.beatport{
+	position: absolute;
+	top: 480px;
+	left: 101px;
+	width: 300px;
+	height:70px;
+	border: 0px solid #333;
+}
+
+.knopka_facebook{
+display: inline-block;
+width: 35px;
+height: 35px;
+margin:25px 16px;
+background: black;
+opacity: 0.9;
+border-radius: 5px;
+box-shadow: 0px 5px 5px #222;
+transition: 0.8s;
+text-align: center;
+line-height: 50px;
+font-size: 30px;
+color: #fff;
+background: url(images/facebook/facebook1.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+.knopka_facebook:hover{
+	transform: scale(1.1);
+	transition: 0.2s;
+	box-shadow: 4px 9px 7px #222;
+	color: #3b5998;
+	border-radius: 6px;
+	background: url(images/facebook/facebook2.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+} 
+
+.knopka_vk{
+display: inline-block;
+width: 35px;
+height: 35px;
+margin:25px 16px;
+background: black;
+opacity: 0.9;
+border-radius: 5px;
+box-shadow: 0px 5px 5px #222;
+transition: 0.8s;
+text-align: center;
+line-height: 50px;
+font-size: 30px;
+color: #fff;
+background: url(images/vk/vk1.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+.knopka_vk:hover{
+	transform: scale(1.1);
+	transition: 0.2s;
+	box-shadow: 4px 9px 7px #222;
+	color: #3b5998;
+	border-radius: 6px;
+	background: url(images/vk/vk2.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+} 
+
+.knopka_instagram{
+display: inline-block;
+width: 35px;
+height: 35px;
+margin:25px 16px;
+background: black;
+opacity: 0.9;
+border-radius: 5px;
+box-shadow: 0px 5px 5px #222;
+transition: 0.8s;
+text-align: center;
+line-height: 50px;
+font-size: 30px;
+color: #fff;
+background: url(images/instagram/instagram1.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+.knopka_instagram:hover{
+	transform: scale(1.1);
+	transition: 0.2s;
+	box-shadow: 4px 9px 7px #222;
+	color: #3b5998;
+	border-radius: 6px;
+	background: url(images/instagram/instagram2.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+} 
+
+.knopka_ra{
+display: inline-block;
+width: 35px;
+height: 35px;
+margin:25px 16px;
+background: black;
+opacity: 0.9;
+border-radius: 5px;
+box-shadow: 0px 5px 5px #222;
+transition: 0.8s;
+text-align: center;
+line-height: 50px;
+font-size: 30px;
+color: #fff;
+background: url(images/ra/ra1.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+.knopka_ra:hover{
+	transform: scale(1.1);
+	transition: 0.2s;
+	box-shadow: 4px 9px 7px #222;
+	color: #3b5998;
+	border-radius: 6px;
+	background: url(images/ra/ra2.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+} 
+
+.knopka_soundcloud{
+display: inline-block;
+width: 35px;
+height: 35px;
+margin:25px 16px;
+background: black;
+opacity: 0.9;
+border-radius: 5px;
+box-shadow: 0px 5px 5px #222;
+transition: 0.8s;
+text-align: center;
+line-height: 50px;
+font-size: 30px;
+color: #fff;
+background: url(images/soundcloud/soundcloud1.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+.knopka_soundcloud:hover{
+	transform: scale(1.1);
+	transition: 0.2s;
+	box-shadow: 4px 9px 7px #222;
+	color: #3b5998;
+	border-radius: 6px;
+	background: url(images/soundcloud/soundcloud2.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+} 
+
+.knopka_twitter{
+display: inline-block;
+width: 35px;
+height: 35px;
+margin:25px 16px;
+background: black;
+opacity: 0.9;
+border-radius: 5px;
+box-shadow: 0px 5px 5px #222;
+transition: 0.8s;
+text-align: center;
+line-height: 50px;
+font-size: 30px;
+color: #fff;
+background: url(images/twitter/twitter1.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+.knopka_twitter:hover{
+	transform: scale(1.1);
+	transition: 0.2s;
+	box-shadow: 4px 9px 7px #222;
+	color: #3b5998;
+	border-radius: 6px;
+	background: url(images/twitter/twitter2.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+} 
+
+.knopka_youtube{
+display: inline-block;
+width: 35px;
+height: 35px;
+margin:25px 16px;
+background: black;
+opacity: 0.9;
+border-radius: 5px;
+box-shadow: 0px 5px 5px #222;
+transition: 0.8s;
+text-align: center;
+line-height: 50px;
+font-size: 30px;
+color: #fff;
+background: url(images/youtube/youtube1.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+.knopka_youtube:hover{
+	transform: scale(1.1);
+	transition: 0.2s;
+	box-shadow: 4px 9px 7px #222;
+	color: #3b5998;
+	border-radius: 6px;
+	background: url(images/youtube/youtube2.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.knopka_beatport{
+display: inline-block;
+width: 170px;
+height: 45px;
+margin:15px 65px;
+background: black;
+opacity: 0.9;
+border-radius: 5px;
+box-shadow: 0px 5px 5px #222;
+transition: 0.8s;
+text-align: center;
+line-height: 50px;
+font-size: 30px;
+color: #fff;
+background: url(images/beatport/beatport1.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+.knopka_beatport:hover{
+	transform: scale(1.05);
+	transition: 0.2s;
+	box-shadow: 4px 9px 7px #222;
+	color: #3b5998;
+	border-radius: 6px;
+	background: url(images/beatport/beatport2.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+} 
+
+.footer{
+	position: absolute;
+	top: 600px;
+	left: 1px;
+	width: 500px;
+	height:85px;
+	font-size: 7px;
+	text-align: center;
+	border: 0px solid #333;
+
+}
+
+
+
